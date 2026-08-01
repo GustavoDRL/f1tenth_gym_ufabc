@@ -1,0 +1,17 @@
+# Dependabot — atualização automática de dependências.
+# Não exige CI: as PRs são abertas mesmo sem workflow configurado.
+# Ative em: Settings › Code security › Dependabot › Dependabot security updates.
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      docker-raiz-minor-patch:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
