@@ -1,3 +1,11 @@
+> ## ⚠️ Repositório arquivado
+>
+> Este fork não é mais usado. A ponte ROS2 que de fato executa vive em
+> `f1tenth_code/src/f1tenth_gym_ros/`, e já divergiu desta cópia. Manter as duas
+> convidava a editar a errada.
+>
+> Trabalho ativo: https://github.com/GustavoDRL/f1tenth_code
+
 # F1TENTH gym environment ROS2 communication bridge
 This is a containerized ROS communication bridge for the F1TENTH gym environment that turns it into a simulation in ROS2.
 
