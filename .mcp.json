@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ]
+    },
+    "quality-gate": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "/home/disney/Documents/repos/prompt_system/MCPs/quality-gate",
+        "python",
+        "-m",
+        "quality_gate_mcp.server"
+      ]
+    },
+    "agent-dispatch": {
+      "command": "node",
+      "args": [
+        "/home/disney/Documents/repos/prompt_system/MCPs/agent-dispatch-mcp/dist/index.js"
+      ]
+    }
+  }
+}

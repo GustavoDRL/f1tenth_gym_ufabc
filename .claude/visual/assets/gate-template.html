@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITULO}}</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0 auto; max-width: 960px; padding: 2rem 1.5rem 4rem;
+         font: 15px/1.6 system-ui, sans-serif; color: #1a1d21; background: #f6f7f9; }
+  h1 { font-size: 1.6rem; border-bottom: 2px solid #d0d4da; padding-bottom: .4rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.2rem; }
+  section { background: #fff; border: 1px solid #e2e5ea; border-radius: 8px;
+            padding: 1rem 1.4rem; margin: 1.2rem 0; }
+  section::before { content: attr(data-fonte); display: block; font-size: .72rem;
+                    color: #8a919c; font-family: monospace; margin-bottom: .6rem; }
+  pre { background: #f1f3f6; border: 1px solid #e2e5ea; border-radius: 6px;
+        padding: .8rem 1rem; overflow-x: auto; font-size: .82rem; line-height: 1.35; }
+  code { font-family: ui-monospace, monospace; font-size: .88em;
+         background: #eef0f3; padding: .1em .3em; border-radius: 4px; }
+  pre code { background: none; padding: 0; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .88rem; }
+  th, td { border: 1px solid #d8dce2; padding: .35rem .6rem; text-align: left;
+           vertical-align: top; }
+  th { background: #eef0f3; }
+  .mermaid { display: flex; justify-content: center; margin: 1rem 0; }
+  blockquote { border-left: 3px solid #c4cad2; margin: .6rem 0; padding: .1rem .9rem;
+               color: #555c66; }
+  a { color: #1d5fbf; }
+</style>
+</head>
+<body>
+<header><h1>{{TITULO}}</h1>
+<p><small>Página derivada dos <code>.md</code> do workspace — não edite à mão; regenere com
+<code>visual_gate.py</code>. Conteúdo faltando aqui = conserto no <code>.md</code>.</small></p>
+</header>
+{{CONTEUDO}}
+<script src="../../assets/mermaid.min.js"></script>
+<script>if (window.mermaid) { mermaid.initialize({ startOnLoad: true, theme: "neutral" }); }</script>
+</body>
+</html>

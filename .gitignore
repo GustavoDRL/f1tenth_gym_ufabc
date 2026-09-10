@@ -129,3 +129,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Claude Code audit logs e overrides locais
+.claude/audit.log
+.claude/settings.local.json
+.claude/settings.json.bak
+# Rastros dos agentes (remova esta linha se quiser versionar a serie temporal)
+Reports/*.md
+!Reports/README.md
