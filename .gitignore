@@ -137,3 +137,6 @@ dmypy.json
 # Rastros dos agentes (remova esta linha se quiser versionar a serie temporal)
 Reports/*.md
 !Reports/README.md
+
+# Local agent configuration
+.claude/
