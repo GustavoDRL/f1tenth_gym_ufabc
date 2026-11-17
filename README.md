@@ -1,10 +1,13 @@
-> ## ⚠️ Repositório arquivado
+> ## ⚠️ Archived fork / Repositório arquivado
 >
-> Este fork não é mais usado. A ponte ROS2 que de fato executa vive em
-> `f1tenth_code/src/f1tenth_gym_ros/`, e já divergiu desta cópia. Manter as duas
-> convidava a editar a errada.
+> This fork is no longer maintained. The ROS2 bridge used by the UFABC F1TENTH
+> autonomous racing project now lives in a private repository and has diverged
+> from this copy. Project overview:
+> https://portfolio-site-git-main-gustavodrls-projects.vercel.app/projects/f1tenth-autonomous-racing
 >
-> Trabalho ativo: https://github.com/GustavoDRL/f1tenth_code
+> Este fork não é mais usado. A ponte ROS2 do projeto F1TENTH da UFABC vive
+> num repositório privado e já divergiu desta cópia. Visão geral do projeto no
+> link acima.
 
 # F1TENTH gym environment ROS2 communication bridge
 This is a containerized ROS communication bridge for the F1TENTH gym environment that turns it into a simulation in ROS2.
